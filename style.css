@@ -812,7 +812,7 @@ sub {
 }
 
 .ad-section table {
-  width: 70%;
+  width: 120%;
   text-align: left;
   padding: 5px;
   color: var(--grey);
