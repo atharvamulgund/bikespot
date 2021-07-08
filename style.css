@@ -3582,3 +3582,36 @@ footer {
   /* <!-- Promtion Section --> */
   /* <!-- Footer --> */
 }
+
+/* Only For iPhone4 and 3.5inches device */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
+  .hero .box2 {
+    position: relative;
+    top: 150px;
+  }
+
+  .trending {
+    margin-top: 35px;
+  }
+
+  #boxc3 {
+    margin-top: 180px;
+  }
+
+  #boxc-3 {
+    margin-top: 180px;
+  }
+
+  .top-card {
+    margin-top: 285px;
+  }
+
+  .bottom-card {
+    margin-top: -75px;
+  }
+
+  #ad-section {
+    margin-top: 1200px;
+  }
+}
+
