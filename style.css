@@ -2200,7 +2200,7 @@ footer {
   }
 
   .ad-section table {
-    width: 120%;
+    width: 100%;
     text-align: center;
     padding: 5px;
     color: var(--grey);
