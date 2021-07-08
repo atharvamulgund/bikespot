@@ -1988,7 +1988,7 @@ footer {
     flex-direction: column;
     text-align: left;
     margin: 0 auto;
-    margin-top: 115px;
+    margin-top: 135px;
   }
 
   #boxc1 {
@@ -2059,7 +2059,7 @@ footer {
     flex-direction: column;
     text-align: left;
     margin: 0 auto;
-    margin-top: 384px;
+   margin-top: 400px;
   }
 
   #boxc-1 {
@@ -2127,7 +2127,7 @@ footer {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    margin-top: 166%;
+     margin-top: 1250px;
   }
 
   .cc1 {
@@ -2374,7 +2374,7 @@ footer {
 
   #boxc1 img {
     background-repeat: no-repeat;
-    width: 200%;
+    width: 150%;
     max-height: 60vh;
   }
 
@@ -2445,7 +2445,7 @@ footer {
 
   #boxc-1 img {
     background-repeat: no-repeat;
-    width: 290%;
+    width: 210%;
     max-height: 60vh;
   }
 
