@@ -1136,6 +1136,7 @@ footer {
 
   .navbar #btn {
     display: block;
+    width: 11rem;
   }
 
   .navbar #btn1 {
@@ -1150,6 +1151,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+  
   }
 
   .navbar i {
