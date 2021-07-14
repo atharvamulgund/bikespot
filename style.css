@@ -101,12 +101,12 @@ body {
   padding: 0;
 }
 
-.navbar i {
-  margin-top: 2vh;
-}
-
 .navbar-links li {
   list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
 }
 
 .navbar-links li a {
@@ -115,10 +115,11 @@ body {
   padding: 1rem;
   font-family: "Montserrat", sans-serif;
   color: #000;
+  
 }
 
 .navbar-links li:hover {
-  background-color: var(--green);
+  transform: scale(1.03);
 }
 
 .navbar #btn {
