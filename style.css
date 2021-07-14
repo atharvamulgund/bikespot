@@ -156,6 +156,7 @@ body {
   cursor: pointer;
   align-items: center;
   letter-spacing: 1px;
+  width: 100px;
 }
 /* Second Nav Ends */
 
@@ -168,7 +169,7 @@ body {
   height: 81.8vh;
   position: relative;
   width: 100%;
-  background: linear-gradient(90deg, var(--black) 20%, var(--green) 100%),
+  background: linear-gradient(90deg, #000 1%, var(--green) 100%),
     url("./img/hero-img.jpg") no-repeat center center / cover;
 }
 
@@ -846,8 +847,9 @@ sub {
 
 .ad-bottom,
 .ad-sponsors {
+  margin: 0 auto;
   display: flex;
-  width: 80%;
+  width: 114%;
   height: 40%;
   margin-top: 20px;
 }
@@ -1071,7 +1073,7 @@ footer {
 }
 /* Footer Ends */
 
-@media only screen and (max-width: 1402px) {
+@media only screen and (max-width: 1450px) {
   /* <!-- First Nav --> */
 
   .first-nav ul {
@@ -2060,7 +2062,7 @@ footer {
     flex-direction: column;
     text-align: left;
     margin: 0 auto;
-   margin-top: 400px;
+    margin-top: 400px;
   }
 
   #boxc-1 {
@@ -2128,7 +2130,7 @@ footer {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-     margin-top: 1250px;
+    margin-top: 1250px;
   }
 
   .cc1 {
@@ -2201,8 +2203,8 @@ footer {
   }
 
   .ad-section table {
-    width: 100%;
-    text-align: center;
+    width: 70%;
+    text-align: left;
     padding: 5px;
     color: var(--grey);
   }
@@ -2355,7 +2357,7 @@ footer {
   }
 
   .card-1 {
-    width: 100%;
+    width: 80%;
     height: 50vh;
     display: flex;
     justify-content: center;
@@ -2380,10 +2382,11 @@ footer {
   }
 
   #boxc2 {
-    width: 60%;
+    width: 100%;
     max-height: 30vh;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     background-color: #fff;
     position: relative;
@@ -2397,7 +2400,7 @@ footer {
   }
 
   #boxc3 {
-    margin-top: 110px;
+    margin-top: 80px;
     width: 60%;
     height: 30vh;
     display: flex;
@@ -2426,7 +2429,7 @@ footer {
   }
 
   .card-2 {
-    width: 80%;
+    width: 60%;
     height: 40vh;
     display: flex;
     justify-content: center;
@@ -2462,7 +2465,7 @@ footer {
   }
 
   #boxc-2 .heads h3 {
-    font-size: 24px;
+    font-size: 20px;
     color: #000;
     margin-bottom: 10px;
   }
@@ -2480,7 +2483,7 @@ footer {
 
   #boxc-3 h4 {
     color: #000;
-    font-size: 18px;
+    font-size: 16px;
   }
 
   #boxc-3 strong sub {
@@ -3236,6 +3239,7 @@ footer {
     height: 25vh;
     background-color: var(--shadowBox);
     padding: 10px;
+    margin-top: 20px;
   }
   /* <!-- Featured Section --> */
   .featured .content span {
@@ -3481,7 +3485,7 @@ footer {
     height: 50vh;
     display: flex;
     flex-direction: column;
-    margin-top: 180px;
+    margin-top: 245px;
     gap: 130px;
   }
 
@@ -3508,7 +3512,7 @@ footer {
 
   .bottom-card {
     background: transparent;
-    margin-top: -250px;
+    margin-top: -170px;
   }
 
   #card4,
@@ -3583,7 +3587,6 @@ footer {
   /* <!-- Promtion Section --> */
   /* <!-- Footer --> */
 }
-
 /* Only For iPhone4 and 3.5inches device */
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) {
   .hero .box2 {
@@ -3615,4 +3618,3 @@ footer {
     margin-top: 1200px;
   }
 }
-
